@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { HttpClientModule } from '@angular/common/http';
 
 import { ComponentsModule } from './components/components.module';
 
@@ -18,7 +19,8 @@ import { GotyComponent } from './pages/goty/goty.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    ComponentsModule
+    ComponentsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
