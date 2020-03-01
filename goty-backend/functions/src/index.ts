@@ -8,6 +8,9 @@ admin.initializeApp({
   databaseURL: "https://firestore-grafica-f5c68.firebaseio.com"
 });
 
+//Referencia a la base de datos
+const db = admin.firestore();
+
 // // Start writing Firebase Functions
 // // https://firebase.google.com/docs/functions/typescript
 //
@@ -15,4 +18,32 @@ admin.initializeApp({
   response.json({
       mensaje: 'Hello from Firebase!!!'
     });
+ });
+
+ export const getGoty = functions.https.onRequest(async(request, response) => {
+  //const nombre = 'Pedro';
+
+  //with arguments url
+  //const nombre = request.query.nombre || 'Sin nombre'; 
+
+  /*
+  response.json({
+    nombre
+  })
+  */
+
+  const gotyRef = db.collection('goty');
+  const docsSnap = await gotyRef.get();
+
+  const juegos = docsSnap.docs.map(doc => doc.data());
+  //Tiene info confidencial. No publicar esta declaracion
+  //response.json(docsSnap);
+  
+  //Un juego en particular
+  //response.json(docsSnap.docs[0].data());
+
+  response.json(juegos);
+
+
+
  });
