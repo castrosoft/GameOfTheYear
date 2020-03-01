@@ -1,5 +1,7 @@
 import * as functions from 'firebase-functions';
 import * as admin from 'firebase-admin';
+import * as express from 'express';
+import * as cors from 'cors';
 
 const serviceAccount = require('./serviceAccountKey.json');
 
@@ -44,6 +46,28 @@ const db = admin.firestore();
 
   response.json(juegos);
 
+ });
 
+ //Express
+ /**
+  * Utilizo un servidor de Express para los GET, POST, etc.
+  * Ahora los podemos pasar por middlewares, podemos crear jsonWebTokens, etc.
+  */
+
+ const app = express();
+
+ //Para que acepte peticiones de otros dominios
+ app.use(cors({origin: true}));
+
+ app.get('/goty', async(req, res) => {
+  const gotyRef = db.collection('goty');
+  const docsSnap = await gotyRef.get();
+
+  const juegos = docsSnap.docs.map(doc => doc.data());
+  res.json(juegos);
 
  });
+
+
+ export const api = functions.https.onRequest(app);
+
