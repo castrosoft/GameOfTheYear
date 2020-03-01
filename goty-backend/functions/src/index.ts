@@ -59,12 +59,41 @@ const db = admin.firestore();
  //Para que acepte peticiones de otros dominios
  app.use(cors({origin: true}));
 
+ //Metodo GET
  app.get('/goty', async(req, res) => {
   const gotyRef = db.collection('goty');
   const docsSnap = await gotyRef.get();
 
   const juegos = docsSnap.docs.map(doc => doc.data());
   res.json(juegos);
+
+ });
+
+ //Metodo POST
+ app.post('/goty/:id', async(req, res) => {
+
+  const id = req.params.id;
+  const gameRef = db.collection('goty').doc(id);
+  const gameSnap = await gameRef.get();
+
+  if(!gameSnap.exists){
+    res.status(404).json({
+      ok: false,
+      mensaje: 'NO existe un juego con ese id ' + id
+    });
+  }else{
+    //res.json('Juego existe');
+    const antes = gameSnap.data() || {votos: 0};
+    await gameRef.update({
+      votos: antes.votos + 1
+    });
+
+    res.json({
+      ok: true,
+      mensaje: `Gracias por tu voto a ${ antes.name  }`
+    });
+  }
+
 
  });
 
