@@ -2008,3 +2008,360 @@ SyntaxError: Invalid shorthand property initializer
 [info] i  functions: Finished "api" in ~1s
 [debug] [2020-03-01T23:53:31.807Z] [worker-api-bce57ae5-a890-45b7-b831-2960688cab32]: IDLE
 [debug] [2020-03-01T23:53:31.807Z] [work-queue] {"queueLength":0,"workRunningCount":2}
+[debug] [2020-03-01T23:55:48.936Z] [work-queue] {"queueLength":1,"workRunningCount":2}
+[debug] [2020-03-01T23:55:48.936Z] [work-queue] {"queueLength":0,"workRunningCount":3}
+[debug] [2020-03-01T23:55:48.936Z] Accepted request GET /firestore-grafica-f5c68/us-central1/api/goty --> api
+[debug] [2020-03-01T23:55:48.936Z] [worker-pool] submitWork(triggerId=api)
+[debug] [2020-03-01T23:55:48.936Z] [worker-api-bce57ae5-a890-45b7-b831-2960688cab32]: Assigning socketPath: /tmp/fire_emu_15936.sock
+[debug] [2020-03-01T23:55:48.936Z] [worker-api-bce57ae5-a890-45b7-b831-2960688cab32]: BUSY
+[debug] [2020-03-01T23:55:48.939Z] [runtime-status] [15936] Trigger "api" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "api"
+[debug] [2020-03-01T23:55:48.939Z] [runtime-status] [15936] triggerDefinition {"httpsTrigger":{},"name":"api","entryPoint":"api"}
+[debug] [2020-03-01T23:55:48.939Z] [runtime-status] [15936] Running api in mode HTTPS
+[debug] [2020-03-01T23:55:48.939Z] [runtime-status] [15936] Attempting to listen to socketPath: /tmp/fire_emu_15936.sock
+[debug] [2020-03-01T23:55:48.940Z] [functions] Runtime ready! Sending request!
+[debug] [2020-03-01T23:55:48.942Z] [runtime-status] [15936] Ephemeral server handling GET request
+[debug] [2020-03-01T23:55:48.942Z] [runtime-status] [15936] Ephemeral server survived.
+[info] i  functions: Finished "api" in ~1s
+[debug] [2020-03-01T23:55:49.369Z] [worker-api-bce57ae5-a890-45b7-b831-2960688cab32]: IDLE
+[debug] [2020-03-01T23:55:49.369Z] [work-queue] {"queueLength":0,"workRunningCount":2}
+[debug] [2020-03-02T00:00:39.277Z] [work-queue] {"queueLength":1,"workRunningCount":2}
+[debug] [2020-03-02T00:00:39.277Z] [work-queue] {"queueLength":0,"workRunningCount":3}
+[debug] [2020-03-02T00:00:39.278Z] Accepted request GET /firestore-grafica-f5c68/us-central1/api/goty --> api
+[debug] [2020-03-02T00:00:39.278Z] [worker-pool] submitWork(triggerId=api)
+[debug] [2020-03-02T00:00:39.278Z] [worker-api-bce57ae5-a890-45b7-b831-2960688cab32]: Assigning socketPath: /tmp/fire_emu_15936.sock
+[debug] [2020-03-02T00:00:39.278Z] [worker-api-bce57ae5-a890-45b7-b831-2960688cab32]: BUSY
+[debug] [2020-03-02T00:00:39.278Z] [runtime-status] [15936] Trigger "api" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "api"
+[debug] [2020-03-02T00:00:39.278Z] [runtime-status] [15936] triggerDefinition {"httpsTrigger":{},"name":"api","entryPoint":"api"}
+[debug] [2020-03-02T00:00:39.278Z] [runtime-status] [15936] Running api in mode HTTPS
+[debug] [2020-03-02T00:00:39.279Z] [runtime-status] [15936] Attempting to listen to socketPath: /tmp/fire_emu_15936.sock
+[debug] [2020-03-02T00:00:39.279Z] [functions] Runtime ready! Sending request!
+[debug] [2020-03-02T00:00:39.280Z] [runtime-status] [15936] Ephemeral server handling GET request
+[debug] [2020-03-02T00:00:39.280Z] [runtime-status] [15936] Ephemeral server survived.
+[info] i  functions: Finished "api" in ~1s
+[debug] [2020-03-02T00:00:39.980Z] [worker-api-bce57ae5-a890-45b7-b831-2960688cab32]: IDLE
+[debug] [2020-03-02T00:00:39.981Z] [work-queue] {"queueLength":0,"workRunningCount":2}
+[debug] [2020-03-02T00:00:42.914Z] [work-queue] {"queueLength":1,"workRunningCount":2}
+[debug] [2020-03-02T00:00:42.915Z] [work-queue] {"queueLength":0,"workRunningCount":3}
+[debug] [2020-03-02T00:00:42.915Z] Accepted request GET /firestore-grafica-f5c68/us-central1/api/goty --> api
+[debug] [2020-03-02T00:00:42.915Z] [worker-pool] submitWork(triggerId=api)
+[debug] [2020-03-02T00:00:42.915Z] [worker-api-bce57ae5-a890-45b7-b831-2960688cab32]: Assigning socketPath: /tmp/fire_emu_15936.sock
+[debug] [2020-03-02T00:00:42.915Z] [worker-api-bce57ae5-a890-45b7-b831-2960688cab32]: BUSY
+[debug] [2020-03-02T00:00:42.916Z] [runtime-status] [15936] Trigger "api" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "api"
+[debug] [2020-03-02T00:00:42.918Z] [runtime-status] [15936] triggerDefinition {"httpsTrigger":{},"name":"api","entryPoint":"api"}
+[debug] [2020-03-02T00:00:42.919Z] [runtime-status] [15936] Running api in mode HTTPS
+[debug] [2020-03-02T00:00:42.919Z] [runtime-status] [15936] Attempting to listen to socketPath: /tmp/fire_emu_15936.sock
+[debug] [2020-03-02T00:00:42.920Z] [functions] Runtime ready! Sending request!
+[debug] [2020-03-02T00:00:42.924Z] [runtime-status] [15936] Ephemeral server handling GET request
+[debug] [2020-03-02T00:00:42.925Z] [runtime-status] [15936] Ephemeral server survived.
+[info] i  functions: Finished "api" in ~1s
+[debug] [2020-03-02T00:00:43.267Z] [worker-api-bce57ae5-a890-45b7-b831-2960688cab32]: IDLE
+[debug] [2020-03-02T00:00:43.267Z] [work-queue] {"queueLength":0,"workRunningCount":2}
+[debug] [2020-03-02T00:01:12.653Z] [work-queue] {"queueLength":1,"workRunningCount":2}
+[debug] [2020-03-02T00:01:12.654Z] [work-queue] {"queueLength":0,"workRunningCount":3}
+[debug] [2020-03-02T00:01:12.654Z] Accepted request GET /firestore-grafica-f5c68/us-central1/api/goty --> api
+[debug] [2020-03-02T00:01:12.654Z] [worker-pool] submitWork(triggerId=api)
+[debug] [2020-03-02T00:01:12.654Z] [worker-api-bce57ae5-a890-45b7-b831-2960688cab32]: Assigning socketPath: /tmp/fire_emu_15936.sock
+[debug] [2020-03-02T00:01:12.655Z] [worker-api-bce57ae5-a890-45b7-b831-2960688cab32]: BUSY
+[debug] [2020-03-02T00:01:12.655Z] [runtime-status] [15936] Trigger "api" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "api"
+[debug] [2020-03-02T00:01:12.655Z] [runtime-status] [15936] triggerDefinition {"httpsTrigger":{},"name":"api","entryPoint":"api"}
+[debug] [2020-03-02T00:01:12.655Z] [runtime-status] [15936] Running api in mode HTTPS
+[debug] [2020-03-02T00:01:12.657Z] [runtime-status] [15936] Attempting to listen to socketPath: /tmp/fire_emu_15936.sock
+[debug] [2020-03-02T00:01:12.657Z] [functions] Runtime ready! Sending request!
+[debug] [2020-03-02T00:01:12.658Z] [runtime-status] [15936] Ephemeral server handling GET request
+[debug] [2020-03-02T00:01:12.659Z] [runtime-status] [15936] Ephemeral server survived.
+[info] i  functions: Finished "api" in ~1s
+[debug] [2020-03-02T00:01:13.261Z] [worker-api-bce57ae5-a890-45b7-b831-2960688cab32]: IDLE
+[debug] [2020-03-02T00:01:13.262Z] [work-queue] {"queueLength":0,"workRunningCount":2}
+[debug] [2020-03-02T00:01:15.050Z] [work-queue] {"queueLength":1,"workRunningCount":2}
+[debug] [2020-03-02T00:01:15.050Z] [work-queue] {"queueLength":0,"workRunningCount":3}
+[debug] [2020-03-02T00:01:15.050Z] Accepted request GET /firestore-grafica-f5c68/us-central1/api/goty --> api
+[debug] [2020-03-02T00:01:15.050Z] [worker-pool] submitWork(triggerId=api)
+[debug] [2020-03-02T00:01:15.050Z] [worker-api-bce57ae5-a890-45b7-b831-2960688cab32]: Assigning socketPath: /tmp/fire_emu_15936.sock
+[debug] [2020-03-02T00:01:15.050Z] [worker-api-bce57ae5-a890-45b7-b831-2960688cab32]: BUSY
+[debug] [2020-03-02T00:01:15.052Z] [runtime-status] [15936] Trigger "api" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "api"
+[debug] [2020-03-02T00:01:15.053Z] [runtime-status] [15936] triggerDefinition {"httpsTrigger":{},"name":"api","entryPoint":"api"}
+[debug] [2020-03-02T00:01:15.053Z] [runtime-status] [15936] Running api in mode HTTPS
+[debug] [2020-03-02T00:01:15.053Z] [runtime-status] [15936] Attempting to listen to socketPath: /tmp/fire_emu_15936.sock
+[debug] [2020-03-02T00:01:15.054Z] [functions] Runtime ready! Sending request!
+[debug] [2020-03-02T00:01:15.057Z] [runtime-status] [15936] Ephemeral server handling GET request
+[debug] [2020-03-02T00:01:15.058Z] [runtime-status] [15936] Ephemeral server survived.
+[info] i  functions: Finished "api" in ~1s
+[debug] [2020-03-02T00:01:15.513Z] [worker-api-bce57ae5-a890-45b7-b831-2960688cab32]: IDLE
+[debug] [2020-03-02T00:01:15.513Z] [work-queue] {"queueLength":0,"workRunningCount":2}
+[debug] [2020-03-02T00:01:19.215Z] [work-queue] {"queueLength":1,"workRunningCount":2}
+[debug] [2020-03-02T00:01:19.216Z] [work-queue] {"queueLength":0,"workRunningCount":3}
+[debug] [2020-03-02T00:01:19.216Z] Accepted request GET /firestore-grafica-f5c68/us-central1/api/goty --> api
+[debug] [2020-03-02T00:01:19.216Z] [worker-pool] submitWork(triggerId=api)
+[debug] [2020-03-02T00:01:19.217Z] [worker-api-bce57ae5-a890-45b7-b831-2960688cab32]: Assigning socketPath: /tmp/fire_emu_15936.sock
+[debug] [2020-03-02T00:01:19.217Z] [worker-api-bce57ae5-a890-45b7-b831-2960688cab32]: BUSY
+[debug] [2020-03-02T00:01:19.218Z] [runtime-status] [15936] Trigger "api" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "api"
+[debug] [2020-03-02T00:01:19.219Z] [runtime-status] [15936] triggerDefinition {"httpsTrigger":{},"name":"api","entryPoint":"api"}
+[debug] [2020-03-02T00:01:19.219Z] [runtime-status] [15936] Running api in mode HTTPS
+[debug] [2020-03-02T00:01:19.219Z] [runtime-status] [15936] Attempting to listen to socketPath: /tmp/fire_emu_15936.sock
+[debug] [2020-03-02T00:01:19.220Z] [functions] Runtime ready! Sending request!
+[debug] [2020-03-02T00:01:19.225Z] [runtime-status] [15936] Ephemeral server handling GET request
+[debug] [2020-03-02T00:01:19.226Z] [runtime-status] [15936] Ephemeral server survived.
+[info] i  functions: Finished "api" in ~1s
+[debug] [2020-03-02T00:01:19.607Z] [worker-api-bce57ae5-a890-45b7-b831-2960688cab32]: IDLE
+[debug] [2020-03-02T00:01:19.607Z] [work-queue] {"queueLength":0,"workRunningCount":2}
+[debug] [2020-03-02T00:01:21.098Z] [work-queue] {"queueLength":1,"workRunningCount":2}
+[debug] [2020-03-02T00:01:21.098Z] [work-queue] {"queueLength":0,"workRunningCount":3}
+[debug] [2020-03-02T00:01:21.099Z] Accepted request GET /firestore-grafica-f5c68/us-central1/api/goty --> api
+[debug] [2020-03-02T00:01:21.099Z] [worker-pool] submitWork(triggerId=api)
+[debug] [2020-03-02T00:01:21.100Z] [worker-api-bce57ae5-a890-45b7-b831-2960688cab32]: Assigning socketPath: /tmp/fire_emu_15936.sock
+[debug] [2020-03-02T00:01:21.100Z] [worker-api-bce57ae5-a890-45b7-b831-2960688cab32]: BUSY
+[debug] [2020-03-02T00:01:21.101Z] [runtime-status] [15936] Trigger "api" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "api"
+[debug] [2020-03-02T00:01:21.102Z] [runtime-status] [15936] triggerDefinition {"httpsTrigger":{},"name":"api","entryPoint":"api"}
+[debug] [2020-03-02T00:01:21.102Z] [runtime-status] [15936] Running api in mode HTTPS
+[debug] [2020-03-02T00:01:21.102Z] [runtime-status] [15936] Attempting to listen to socketPath: /tmp/fire_emu_15936.sock
+[debug] [2020-03-02T00:01:21.105Z] [functions] Runtime ready! Sending request!
+[debug] [2020-03-02T00:01:21.106Z] [runtime-status] [15936] Ephemeral server handling GET request
+[debug] [2020-03-02T00:01:21.107Z] [runtime-status] [15936] Ephemeral server survived.
+[info] i  functions: Finished "api" in ~1s
+[debug] [2020-03-02T00:01:21.552Z] [worker-api-bce57ae5-a890-45b7-b831-2960688cab32]: IDLE
+[debug] [2020-03-02T00:01:21.553Z] [work-queue] {"queueLength":0,"workRunningCount":2}
+[debug] [2020-03-02T00:02:58.285Z] [work-queue] {"queueLength":1,"workRunningCount":2}
+[debug] [2020-03-02T00:02:58.286Z] [work-queue] {"queueLength":0,"workRunningCount":3}
+[debug] [2020-03-02T00:02:58.286Z] Accepted request GET /firestore-grafica-f5c68/us-central1/api/goty --> api
+[debug] [2020-03-02T00:02:58.286Z] [worker-pool] submitWork(triggerId=api)
+[debug] [2020-03-02T00:02:58.286Z] [worker-api-bce57ae5-a890-45b7-b831-2960688cab32]: Assigning socketPath: /tmp/fire_emu_15936.sock
+[debug] [2020-03-02T00:02:58.286Z] [worker-api-bce57ae5-a890-45b7-b831-2960688cab32]: BUSY
+[debug] [2020-03-02T00:02:58.286Z] [runtime-status] [15936] Trigger "api" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "api"
+[debug] [2020-03-02T00:02:58.286Z] [runtime-status] [15936] triggerDefinition {"httpsTrigger":{},"name":"api","entryPoint":"api"}
+[debug] [2020-03-02T00:02:58.286Z] [runtime-status] [15936] Running api in mode HTTPS
+[debug] [2020-03-02T00:02:58.287Z] [runtime-status] [15936] Attempting to listen to socketPath: /tmp/fire_emu_15936.sock
+[debug] [2020-03-02T00:02:58.287Z] [functions] Runtime ready! Sending request!
+[debug] [2020-03-02T00:02:58.287Z] [runtime-status] [15936] Ephemeral server handling GET request
+[debug] [2020-03-02T00:02:58.288Z] [runtime-status] [15936] Ephemeral server survived.
+[info] i  functions: Finished "api" in ~1s
+[debug] [2020-03-02T00:02:58.726Z] [worker-api-bce57ae5-a890-45b7-b831-2960688cab32]: IDLE
+[debug] [2020-03-02T00:02:58.726Z] [work-queue] {"queueLength":0,"workRunningCount":2}
+[debug] [2020-03-02T00:03:09.291Z] [work-queue] {"queueLength":1,"workRunningCount":2}
+[debug] [2020-03-02T00:03:09.292Z] [work-queue] {"queueLength":0,"workRunningCount":3}
+[debug] [2020-03-02T00:03:09.292Z] Accepted request GET /firestore-grafica-f5c68/us-central1/api/goty --> api
+[debug] [2020-03-02T00:03:09.292Z] [worker-pool] submitWork(triggerId=api)
+[debug] [2020-03-02T00:03:09.292Z] [worker-api-bce57ae5-a890-45b7-b831-2960688cab32]: Assigning socketPath: /tmp/fire_emu_15936.sock
+[debug] [2020-03-02T00:03:09.292Z] [worker-api-bce57ae5-a890-45b7-b831-2960688cab32]: BUSY
+[debug] [2020-03-02T00:03:09.293Z] [runtime-status] [15936] Trigger "api" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "api"
+[debug] [2020-03-02T00:03:09.293Z] [runtime-status] [15936] triggerDefinition {"httpsTrigger":{},"name":"api","entryPoint":"api"}
+[debug] [2020-03-02T00:03:09.293Z] [runtime-status] [15936] Running api in mode HTTPS
+[debug] [2020-03-02T00:03:09.294Z] [runtime-status] [15936] Attempting to listen to socketPath: /tmp/fire_emu_15936.sock
+[debug] [2020-03-02T00:03:09.295Z] [functions] Runtime ready! Sending request!
+[debug] [2020-03-02T00:03:09.297Z] [runtime-status] [15936] Ephemeral server handling GET request
+[debug] [2020-03-02T00:03:09.298Z] [runtime-status] [15936] Ephemeral server survived.
+[info] i  functions: Finished "api" in ~1s
+[debug] [2020-03-02T00:03:09.688Z] [worker-api-bce57ae5-a890-45b7-b831-2960688cab32]: IDLE
+[debug] [2020-03-02T00:03:09.688Z] [work-queue] {"queueLength":0,"workRunningCount":2}
+[debug] [2020-03-02T00:04:45.261Z] [work-queue] {"queueLength":1,"workRunningCount":2}
+[debug] [2020-03-02T00:04:45.263Z] [work-queue] {"queueLength":0,"workRunningCount":3}
+[debug] [2020-03-02T00:04:45.263Z] Accepted request GET /firestore-grafica-f5c68/us-central1/api/goty --> api
+[debug] [2020-03-02T00:04:45.263Z] [worker-pool] submitWork(triggerId=api)
+[debug] [2020-03-02T00:04:45.263Z] [worker-api-bce57ae5-a890-45b7-b831-2960688cab32]: Assigning socketPath: /tmp/fire_emu_15936.sock
+[debug] [2020-03-02T00:04:45.263Z] [worker-api-bce57ae5-a890-45b7-b831-2960688cab32]: BUSY
+[debug] [2020-03-02T00:04:45.264Z] [runtime-status] [15936] Trigger "api" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "api"
+[debug] [2020-03-02T00:04:45.267Z] [runtime-status] [15936] triggerDefinition {"httpsTrigger":{},"name":"api","entryPoint":"api"}
+[debug] [2020-03-02T00:04:45.267Z] [runtime-status] [15936] Running api in mode HTTPS
+[debug] [2020-03-02T00:04:45.267Z] [runtime-status] [15936] Attempting to listen to socketPath: /tmp/fire_emu_15936.sock
+[debug] [2020-03-02T00:04:45.267Z] [functions] Runtime ready! Sending request!
+[debug] [2020-03-02T00:04:45.271Z] [runtime-status] [15936] Ephemeral server handling GET request
+[debug] [2020-03-02T00:04:45.271Z] [runtime-status] [15936] Ephemeral server survived.
+[info] i  functions: Finished "api" in ~1s
+[debug] [2020-03-02T00:04:45.654Z] [worker-api-bce57ae5-a890-45b7-b831-2960688cab32]: IDLE
+[debug] [2020-03-02T00:04:45.654Z] [work-queue] {"queueLength":0,"workRunningCount":2}
+[debug] [2020-03-02T00:05:33.420Z] [work-queue] {"queueLength":1,"workRunningCount":2}
+[debug] [2020-03-02T00:05:33.421Z] [work-queue] {"queueLength":0,"workRunningCount":3}
+[debug] [2020-03-02T00:05:33.421Z] Accepted request GET /firestore-grafica-f5c68/us-central1/api/goty --> api
+[debug] [2020-03-02T00:05:33.421Z] [worker-pool] submitWork(triggerId=api)
+[debug] [2020-03-02T00:05:33.421Z] [worker-api-bce57ae5-a890-45b7-b831-2960688cab32]: Assigning socketPath: /tmp/fire_emu_15936.sock
+[debug] [2020-03-02T00:05:33.421Z] [worker-api-bce57ae5-a890-45b7-b831-2960688cab32]: BUSY
+[debug] [2020-03-02T00:05:33.421Z] [runtime-status] [15936] Trigger "api" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "api"
+[debug] [2020-03-02T00:05:33.422Z] [runtime-status] [15936] triggerDefinition {"httpsTrigger":{},"name":"api","entryPoint":"api"}
+[debug] [2020-03-02T00:05:33.422Z] [runtime-status] [15936] Running api in mode HTTPS
+[debug] [2020-03-02T00:05:33.422Z] [runtime-status] [15936] Attempting to listen to socketPath: /tmp/fire_emu_15936.sock
+[debug] [2020-03-02T00:05:33.422Z] [functions] Runtime ready! Sending request!
+[debug] [2020-03-02T00:05:33.423Z] [runtime-status] [15936] Ephemeral server handling GET request
+[debug] [2020-03-02T00:05:33.423Z] [runtime-status] [15936] Ephemeral server survived.
+[info] i  functions: Finished "api" in ~1s
+[debug] [2020-03-02T00:05:33.772Z] [worker-api-bce57ae5-a890-45b7-b831-2960688cab32]: IDLE
+[debug] [2020-03-02T00:05:33.772Z] [work-queue] {"queueLength":0,"workRunningCount":2}
+[debug] [2020-03-02T00:06:10.286Z] [work-queue] {"queueLength":1,"workRunningCount":2}
+[debug] [2020-03-02T00:06:10.287Z] [work-queue] {"queueLength":0,"workRunningCount":3}
+[debug] [2020-03-02T00:06:10.287Z] Accepted request GET /firestore-grafica-f5c68/us-central1/api/goty --> api
+[debug] [2020-03-02T00:06:10.287Z] [worker-pool] submitWork(triggerId=api)
+[debug] [2020-03-02T00:06:10.287Z] [worker-api-bce57ae5-a890-45b7-b831-2960688cab32]: Assigning socketPath: /tmp/fire_emu_15936.sock
+[debug] [2020-03-02T00:06:10.287Z] [worker-api-bce57ae5-a890-45b7-b831-2960688cab32]: BUSY
+[debug] [2020-03-02T00:06:10.289Z] [runtime-status] [15936] Trigger "api" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "api"
+[debug] [2020-03-02T00:06:10.290Z] [runtime-status] [15936] triggerDefinition {"httpsTrigger":{},"name":"api","entryPoint":"api"}
+[debug] [2020-03-02T00:06:10.291Z] [runtime-status] [15936] Running api in mode HTTPS
+[debug] [2020-03-02T00:06:10.291Z] [runtime-status] [15936] Attempting to listen to socketPath: /tmp/fire_emu_15936.sock
+[debug] [2020-03-02T00:06:10.291Z] [functions] Runtime ready! Sending request!
+[debug] [2020-03-02T00:06:10.292Z] [runtime-status] [15936] Ephemeral server handling GET request
+[debug] [2020-03-02T00:06:10.292Z] [runtime-status] [15936] Ephemeral server survived.
+[info] i  functions: Finished "api" in ~2s
+[debug] [2020-03-02T00:06:12.468Z] [worker-api-bce57ae5-a890-45b7-b831-2960688cab32]: IDLE
+[debug] [2020-03-02T00:06:12.468Z] [work-queue] {"queueLength":0,"workRunningCount":2}
+[debug] [2020-03-02T00:07:57.406Z] [work-queue] {"queueLength":1,"workRunningCount":2}
+[debug] [2020-03-02T00:07:57.406Z] [work-queue] {"queueLength":0,"workRunningCount":3}
+[debug] [2020-03-02T00:07:57.406Z] Accepted request GET /firestore-grafica-f5c68/us-central1/api/goty --> api
+[debug] [2020-03-02T00:07:57.406Z] [worker-pool] submitWork(triggerId=api)
+[debug] [2020-03-02T00:07:57.406Z] [worker-api-bce57ae5-a890-45b7-b831-2960688cab32]: Assigning socketPath: /tmp/fire_emu_15936.sock
+[debug] [2020-03-02T00:07:57.406Z] [worker-api-bce57ae5-a890-45b7-b831-2960688cab32]: BUSY
+[debug] [2020-03-02T00:07:57.406Z] [runtime-status] [15936] Trigger "api" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "api"
+[debug] [2020-03-02T00:07:57.407Z] [runtime-status] [15936] triggerDefinition {"httpsTrigger":{},"name":"api","entryPoint":"api"}
+[debug] [2020-03-02T00:07:57.407Z] [runtime-status] [15936] Running api in mode HTTPS
+[debug] [2020-03-02T00:07:57.407Z] [runtime-status] [15936] Attempting to listen to socketPath: /tmp/fire_emu_15936.sock
+[debug] [2020-03-02T00:07:57.407Z] [functions] Runtime ready! Sending request!
+[debug] [2020-03-02T00:07:57.408Z] [runtime-status] [15936] Ephemeral server handling GET request
+[debug] [2020-03-02T00:07:57.409Z] [runtime-status] [15936] Ephemeral server survived.
+[info] i  functions: Finished "api" in ~1s
+[debug] [2020-03-02T00:07:57.841Z] [worker-api-bce57ae5-a890-45b7-b831-2960688cab32]: IDLE
+[debug] [2020-03-02T00:07:57.842Z] [work-queue] {"queueLength":0,"workRunningCount":2}
+[debug] [2020-03-02T00:08:16.484Z] [work-queue] {"queueLength":1,"workRunningCount":2}
+[debug] [2020-03-02T00:08:16.484Z] [work-queue] {"queueLength":0,"workRunningCount":3}
+[debug] [2020-03-02T00:08:16.484Z] Accepted request GET /firestore-grafica-f5c68/us-central1/api/goty --> api
+[debug] [2020-03-02T00:08:16.484Z] [worker-pool] submitWork(triggerId=api)
+[debug] [2020-03-02T00:08:16.485Z] [worker-api-bce57ae5-a890-45b7-b831-2960688cab32]: Assigning socketPath: /tmp/fire_emu_15936.sock
+[debug] [2020-03-02T00:08:16.485Z] [worker-api-bce57ae5-a890-45b7-b831-2960688cab32]: BUSY
+[debug] [2020-03-02T00:08:16.485Z] [runtime-status] [15936] Trigger "api" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "api"
+[debug] [2020-03-02T00:08:16.486Z] [runtime-status] [15936] triggerDefinition {"httpsTrigger":{},"name":"api","entryPoint":"api"}
+[debug] [2020-03-02T00:08:16.486Z] [runtime-status] [15936] Running api in mode HTTPS
+[debug] [2020-03-02T00:08:16.486Z] [runtime-status] [15936] Attempting to listen to socketPath: /tmp/fire_emu_15936.sock
+[debug] [2020-03-02T00:08:16.486Z] [functions] Runtime ready! Sending request!
+[debug] [2020-03-02T00:08:16.487Z] [runtime-status] [15936] Ephemeral server handling GET request
+[debug] [2020-03-02T00:08:16.488Z] [runtime-status] [15936] Ephemeral server survived.
+[info] i  functions: Finished "api" in ~1s
+[debug] [2020-03-02T00:08:16.887Z] [worker-api-bce57ae5-a890-45b7-b831-2960688cab32]: IDLE
+[debug] [2020-03-02T00:08:16.887Z] [work-queue] {"queueLength":0,"workRunningCount":2}
+[debug] [2020-03-02T00:10:32.318Z] [work-queue] {"queueLength":1,"workRunningCount":2}
+[debug] [2020-03-02T00:10:32.318Z] [work-queue] {"queueLength":0,"workRunningCount":3}
+[debug] [2020-03-02T00:10:32.319Z] Accepted request GET /firestore-grafica-f5c68/us-central1/api/goty --> api
+[debug] [2020-03-02T00:10:32.319Z] [worker-pool] submitWork(triggerId=api)
+[debug] [2020-03-02T00:10:32.319Z] [worker-api-bce57ae5-a890-45b7-b831-2960688cab32]: Assigning socketPath: /tmp/fire_emu_15936.sock
+[debug] [2020-03-02T00:10:32.319Z] [worker-api-bce57ae5-a890-45b7-b831-2960688cab32]: BUSY
+[debug] [2020-03-02T00:10:32.319Z] [runtime-status] [15936] Trigger "api" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "api"
+[debug] [2020-03-02T00:10:32.319Z] [runtime-status] [15936] triggerDefinition {"httpsTrigger":{},"name":"api","entryPoint":"api"}
+[debug] [2020-03-02T00:10:32.319Z] [runtime-status] [15936] Running api in mode HTTPS
+[debug] [2020-03-02T00:10:32.320Z] [runtime-status] [15936] Attempting to listen to socketPath: /tmp/fire_emu_15936.sock
+[debug] [2020-03-02T00:10:32.320Z] [functions] Runtime ready! Sending request!
+[debug] [2020-03-02T00:10:32.321Z] [runtime-status] [15936] Ephemeral server handling GET request
+[debug] [2020-03-02T00:10:32.321Z] [runtime-status] [15936] Ephemeral server survived.
+[info] i  functions: Finished "api" in ~1s
+[debug] [2020-03-02T00:10:32.772Z] [worker-api-bce57ae5-a890-45b7-b831-2960688cab32]: IDLE
+[debug] [2020-03-02T00:10:32.772Z] [work-queue] {"queueLength":0,"workRunningCount":2}
+[debug] [2020-03-02T00:12:20.325Z] [work-queue] {"queueLength":1,"workRunningCount":2}
+[debug] [2020-03-02T00:12:20.325Z] [work-queue] {"queueLength":0,"workRunningCount":3}
+[debug] [2020-03-02T00:12:20.325Z] Accepted request GET /firestore-grafica-f5c68/us-central1/api/goty --> api
+[debug] [2020-03-02T00:12:20.325Z] [worker-pool] submitWork(triggerId=api)
+[debug] [2020-03-02T00:12:20.325Z] [worker-api-bce57ae5-a890-45b7-b831-2960688cab32]: Assigning socketPath: /tmp/fire_emu_15936.sock
+[debug] [2020-03-02T00:12:20.325Z] [worker-api-bce57ae5-a890-45b7-b831-2960688cab32]: BUSY
+[debug] [2020-03-02T00:12:20.325Z] [runtime-status] [15936] Trigger "api" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "api"
+[debug] [2020-03-02T00:12:20.326Z] [runtime-status] [15936] triggerDefinition {"httpsTrigger":{},"name":"api","entryPoint":"api"}
+[debug] [2020-03-02T00:12:20.326Z] [runtime-status] [15936] Running api in mode HTTPS
+[debug] [2020-03-02T00:12:20.326Z] [runtime-status] [15936] Attempting to listen to socketPath: /tmp/fire_emu_15936.sock
+[debug] [2020-03-02T00:12:20.326Z] [functions] Runtime ready! Sending request!
+[debug] [2020-03-02T00:12:20.327Z] [runtime-status] [15936] Ephemeral server handling GET request
+[debug] [2020-03-02T00:12:20.327Z] [runtime-status] [15936] Ephemeral server survived.
+[info] i  functions: Finished "api" in ~1s
+[debug] [2020-03-02T00:12:20.705Z] [worker-api-bce57ae5-a890-45b7-b831-2960688cab32]: IDLE
+[debug] [2020-03-02T00:12:20.705Z] [work-queue] {"queueLength":0,"workRunningCount":2}
+[debug] [2020-03-02T00:13:09.390Z] [work-queue] {"queueLength":1,"workRunningCount":2}
+[debug] [2020-03-02T00:13:09.390Z] [work-queue] {"queueLength":0,"workRunningCount":3}
+[debug] [2020-03-02T00:13:09.390Z] Accepted request GET /firestore-grafica-f5c68/us-central1/api/goty --> api
+[debug] [2020-03-02T00:13:09.390Z] [worker-pool] submitWork(triggerId=api)
+[debug] [2020-03-02T00:13:09.391Z] [worker-api-bce57ae5-a890-45b7-b831-2960688cab32]: Assigning socketPath: /tmp/fire_emu_15936.sock
+[debug] [2020-03-02T00:13:09.391Z] [worker-api-bce57ae5-a890-45b7-b831-2960688cab32]: BUSY
+[debug] [2020-03-02T00:13:09.392Z] [runtime-status] [15936] Trigger "api" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "api"
+[debug] [2020-03-02T00:13:09.392Z] [runtime-status] [15936] triggerDefinition {"httpsTrigger":{},"name":"api","entryPoint":"api"}
+[debug] [2020-03-02T00:13:09.392Z] [runtime-status] [15936] Running api in mode HTTPS
+[debug] [2020-03-02T00:13:09.392Z] [runtime-status] [15936] Attempting to listen to socketPath: /tmp/fire_emu_15936.sock
+[debug] [2020-03-02T00:13:09.392Z] [functions] Runtime ready! Sending request!
+[debug] [2020-03-02T00:13:09.394Z] [runtime-status] [15936] Ephemeral server handling GET request
+[debug] [2020-03-02T00:13:09.395Z] [runtime-status] [15936] Ephemeral server survived.
+[info] i  functions: Finished "api" in ~1s
+[debug] [2020-03-02T00:13:09.855Z] [worker-api-bce57ae5-a890-45b7-b831-2960688cab32]: IDLE
+[debug] [2020-03-02T00:13:09.855Z] [work-queue] {"queueLength":0,"workRunningCount":2}
+[debug] [2020-03-02T00:21:28.935Z] [work-queue] {"queueLength":1,"workRunningCount":2}
+[debug] [2020-03-02T00:21:28.935Z] [work-queue] {"queueLength":0,"workRunningCount":3}
+[debug] [2020-03-02T00:21:28.935Z] Accepted request GET /firestore-grafica-f5c68/us-central1/api/goty --> api
+[debug] [2020-03-02T00:21:28.935Z] [worker-pool] submitWork(triggerId=api)
+[debug] [2020-03-02T00:21:28.935Z] [worker-api-bce57ae5-a890-45b7-b831-2960688cab32]: Assigning socketPath: /tmp/fire_emu_15936.sock
+[debug] [2020-03-02T00:21:28.935Z] [worker-api-bce57ae5-a890-45b7-b831-2960688cab32]: BUSY
+[debug] [2020-03-02T00:21:28.935Z] [runtime-status] [15936] Trigger "api" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "api"
+[debug] [2020-03-02T00:21:28.936Z] [runtime-status] [15936] triggerDefinition {"httpsTrigger":{},"name":"api","entryPoint":"api"}
+[debug] [2020-03-02T00:21:28.936Z] [runtime-status] [15936] Running api in mode HTTPS
+[debug] [2020-03-02T00:21:28.937Z] [runtime-status] [15936] Attempting to listen to socketPath: /tmp/fire_emu_15936.sock
+[debug] [2020-03-02T00:21:28.938Z] [functions] Runtime ready! Sending request!
+[debug] [2020-03-02T00:21:28.939Z] [runtime-status] [15936] Ephemeral server handling GET request
+[debug] [2020-03-02T00:21:28.941Z] [runtime-status] [15936] Ephemeral server survived.
+[info] i  functions: Finished "api" in ~1s
+[debug] [2020-03-02T00:21:30.493Z] [worker-api-bce57ae5-a890-45b7-b831-2960688cab32]: IDLE
+[debug] [2020-03-02T00:21:30.493Z] [work-queue] {"queueLength":0,"workRunningCount":2}
+[debug] [2020-03-02T00:21:58.457Z] [work-queue] {"queueLength":1,"workRunningCount":2}
+[debug] [2020-03-02T00:21:58.458Z] [work-queue] {"queueLength":0,"workRunningCount":3}
+[debug] [2020-03-02T00:21:58.458Z] Accepted request GET /firestore-grafica-f5c68/us-central1/api/goty --> api
+[debug] [2020-03-02T00:21:58.458Z] [worker-pool] submitWork(triggerId=api)
+[debug] [2020-03-02T00:21:58.458Z] [worker-api-bce57ae5-a890-45b7-b831-2960688cab32]: Assigning socketPath: /tmp/fire_emu_15936.sock
+[debug] [2020-03-02T00:21:58.458Z] [worker-api-bce57ae5-a890-45b7-b831-2960688cab32]: BUSY
+[debug] [2020-03-02T00:21:58.461Z] [runtime-status] [15936] Trigger "api" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "api"
+[debug] [2020-03-02T00:21:58.462Z] [runtime-status] [15936] triggerDefinition {"httpsTrigger":{},"name":"api","entryPoint":"api"}
+[debug] [2020-03-02T00:21:58.462Z] [runtime-status] [15936] Running api in mode HTTPS
+[debug] [2020-03-02T00:21:58.462Z] [runtime-status] [15936] Attempting to listen to socketPath: /tmp/fire_emu_15936.sock
+[debug] [2020-03-02T00:21:58.462Z] [functions] Runtime ready! Sending request!
+[debug] [2020-03-02T00:21:58.463Z] [runtime-status] [15936] Ephemeral server handling GET request
+[debug] [2020-03-02T00:21:58.463Z] [runtime-status] [15936] Ephemeral server survived.
+[info] i  functions: Finished "api" in ~1s
+[debug] [2020-03-02T00:21:58.957Z] [worker-api-bce57ae5-a890-45b7-b831-2960688cab32]: IDLE
+[debug] [2020-03-02T00:21:58.958Z] [work-queue] {"queueLength":0,"workRunningCount":2}
+[debug] [2020-03-02T00:23:08.482Z] [work-queue] {"queueLength":1,"workRunningCount":2}
+[debug] [2020-03-02T00:23:08.482Z] [work-queue] {"queueLength":0,"workRunningCount":3}
+[debug] [2020-03-02T00:23:08.483Z] Accepted request GET /firestore-grafica-f5c68/us-central1/api/goty --> api
+[debug] [2020-03-02T00:23:08.483Z] [worker-pool] submitWork(triggerId=api)
+[debug] [2020-03-02T00:23:08.483Z] [worker-api-bce57ae5-a890-45b7-b831-2960688cab32]: Assigning socketPath: /tmp/fire_emu_15936.sock
+[debug] [2020-03-02T00:23:08.483Z] [worker-api-bce57ae5-a890-45b7-b831-2960688cab32]: BUSY
+[debug] [2020-03-02T00:23:08.483Z] [runtime-status] [15936] Trigger "api" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "api"
+[debug] [2020-03-02T00:23:08.483Z] [runtime-status] [15936] triggerDefinition {"httpsTrigger":{},"name":"api","entryPoint":"api"}
+[debug] [2020-03-02T00:23:08.483Z] [runtime-status] [15936] Running api in mode HTTPS
+[debug] [2020-03-02T00:23:08.484Z] [runtime-status] [15936] Attempting to listen to socketPath: /tmp/fire_emu_15936.sock
+[debug] [2020-03-02T00:23:08.485Z] [functions] Runtime ready! Sending request!
+[debug] [2020-03-02T00:23:08.488Z] [runtime-status] [15936] Ephemeral server handling GET request
+[debug] [2020-03-02T00:23:08.488Z] [runtime-status] [15936] Ephemeral server survived.
+[info] i  functions: Finished "api" in ~1s
+[debug] [2020-03-02T00:23:08.893Z] [worker-api-bce57ae5-a890-45b7-b831-2960688cab32]: IDLE
+[debug] [2020-03-02T00:23:08.893Z] [work-queue] {"queueLength":0,"workRunningCount":2}
+[debug] [2020-03-02T00:23:32.352Z] [work-queue] {"queueLength":1,"workRunningCount":2}
+[debug] [2020-03-02T00:23:32.352Z] [work-queue] {"queueLength":0,"workRunningCount":3}
+[debug] [2020-03-02T00:23:32.352Z] Accepted request GET /firestore-grafica-f5c68/us-central1/api/goty --> api
+[debug] [2020-03-02T00:23:32.352Z] [worker-pool] submitWork(triggerId=api)
+[debug] [2020-03-02T00:23:32.352Z] [worker-api-bce57ae5-a890-45b7-b831-2960688cab32]: Assigning socketPath: /tmp/fire_emu_15936.sock
+[debug] [2020-03-02T00:23:32.352Z] [worker-api-bce57ae5-a890-45b7-b831-2960688cab32]: BUSY
+[debug] [2020-03-02T00:23:32.353Z] [runtime-status] [15936] Trigger "api" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "api"
+[debug] [2020-03-02T00:23:32.353Z] [runtime-status] [15936] triggerDefinition {"httpsTrigger":{},"name":"api","entryPoint":"api"}
+[debug] [2020-03-02T00:23:32.353Z] [runtime-status] [15936] Running api in mode HTTPS
+[debug] [2020-03-02T00:23:32.353Z] [runtime-status] [15936] Attempting to listen to socketPath: /tmp/fire_emu_15936.sock
+[debug] [2020-03-02T00:23:32.353Z] [functions] Runtime ready! Sending request!
+[debug] [2020-03-02T00:23:32.354Z] [runtime-status] [15936] Ephemeral server handling GET request
+[debug] [2020-03-02T00:23:32.355Z] [runtime-status] [15936] Ephemeral server survived.
+[info] i  functions: Finished "api" in ~1s
+[debug] [2020-03-02T00:23:32.752Z] [worker-api-bce57ae5-a890-45b7-b831-2960688cab32]: IDLE
+[debug] [2020-03-02T00:23:32.752Z] [work-queue] {"queueLength":0,"workRunningCount":2}
