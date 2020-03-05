@@ -14,7 +14,8 @@
                 <h5 class="card-title">{{juego.name}}</h5>
                 <p class="card-text">Click aqui para votar por este juego.</p>
 
-                <button class="btn btn-block btn-outline-primary">
+                <button class="btn btn-block btn-outline-primary"
+                (click)="votarJuego(juego)">
                     Votar
                 </button>
               </div>
