@@ -4,7 +4,7 @@ import { environment } from '../../environments/environment';
 import { Game } from '../interfaces/interfaces';
 
 import { of } from 'rxjs';
-import { tap } from 'rxjs/operators';
+import { tap, catchError } from 'rxjs/operators';
 
 @Injectable({
   providedIn: 'root'
@@ -36,6 +36,12 @@ export class GameService {
   }
 
   votarJuego(id: string){
-    return this.http.post(`${environment.url}/api/goty/${id}`, {});
+    //Agrego manejo de error
+    return this.http.post(`${environment.url}/api/goty/${id}`, {})
+    .pipe(catchError(err => {
+      //console.log('Error en la peticion');
+      //console.log(err);
+      return of(err.error);
+    }))
   }
 }
