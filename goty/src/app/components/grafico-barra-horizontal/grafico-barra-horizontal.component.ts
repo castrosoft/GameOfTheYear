@@ -1,4 +1,5 @@
 import { Component, OnDestroy } from '@angular/core';
+import 'firebase/firestore';
 
 @Component({
   selector: 'app-grafico-barra-horizontal',
@@ -38,12 +39,12 @@ export class GraficoBarraHorizontalComponent implements OnDestroy{
 
   colorScheme = 'nightLights';
 
-  intervalo;
+  //intervalo;
 
   constructor() {  
 
     
-
+/*
     this.intervalo = setInterval( () => {
       console.log('ticks');
 
@@ -57,6 +58,7 @@ export class GraficoBarraHorizontalComponent implements OnDestroy{
       this.result = [...newResults];
 
     }, 1500);
+*/
 
     
   }
@@ -66,7 +68,7 @@ export class GraficoBarraHorizontalComponent implements OnDestroy{
   }
 
   ngOnDestroy(){
-    clearInterval(this.intervalo);
+    //clearInterval(this.intervalo);
   }
 
 }

@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "firestore-grafica-f5c68": {
+      "hosting": {
+        "goty": [
+          "firestore-grafica-f5c68"
+        ]
+      }
+    }
+  }
+}
