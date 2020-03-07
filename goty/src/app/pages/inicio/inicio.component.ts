@@ -10,6 +10,8 @@ import { Game } from '../../interfaces/interfaces';
 })
 export class InicioComponent implements OnInit {
 
+  juegos: any[] = [];
+
   constructor(private db: AngularFirestore) { }
 
   ngOnInit(): void {
@@ -19,8 +21,8 @@ export class InicioComponent implements OnInit {
       map( (resp: Game[]) => resp.map( ({ name, votos }) => ({ name, value: votos }) ))
     )
     .subscribe( juegos => {
-       console.log(juegos);
-      //this.juegos = juegos;
+       //console.log(juegos);
+      this.juegos = juegos;
     });
 }
 }

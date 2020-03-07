@@ -1,4 +1,4 @@
-import { Component, OnDestroy } from '@angular/core';
+import { Component, OnDestroy, Input } from '@angular/core';
 import 'firebase/firestore';
 
 @Component({
@@ -8,6 +8,8 @@ import 'firebase/firestore';
 })
 export class GraficoBarraHorizontalComponent implements OnDestroy{
 
+  @Input() result: any[] = [];
+  /*
   result: any[] = [
     {
       "name": "Juego 1",
@@ -26,6 +28,7 @@ export class GraficoBarraHorizontalComponent implements OnDestroy{
       "value": 10
     }
   ];
+  */
 
   // options
   showXAxis = true;
